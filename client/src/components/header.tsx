@@ -11,7 +11,6 @@ export default function Header() {
     { name: "Home", href: "/", icon: <FaHome /> },
     { name: "About Us", href: "/about", icon: <FaInfoCircle /> },
     { name: "Contact Us", href: "/contact", icon: <FaEnvelope /> },
-    { name: "PYQs", href: "/pyqs", icon: <FaBook /> },
   ];
 
   const toggleMobileMenu = () => {
